@@ -21,11 +21,20 @@
         color: $grey-color-dark;
     }
 }
-
+.page-heading {
+    font-size: 28px;
+    font-family: "Georgia", serif;
+    text-align: center;
+    font-style: italic;
+    color: #999999;
+    margin: 0 auto 2em;
+    text-shadow: 1px 1px 1px #ffffff;
+    border-bottom: 1px dashed #ccc;
+}
 .site-nav {
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 56px;
 
     .menu-icon {
@@ -93,7 +102,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    text-align: center;
     padding: $spacing-unit 0;
 }
 
@@ -210,7 +219,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    padding: 0 5%;
+    text-align: center;
     h2 {
         font-size: 32px;
 
@@ -234,4 +244,17 @@
             font-size: 18px;
         }
     }
+}
+
+#pure-slider {
+    min-height: 180px;
+    border: 10px solid white;
+    box-shadow: 0 10px 10px;
+}
+.center{
+    text-align: center;
+}
+hr{
+    margin: 3em;
+    border: 1px dashed #ccc;
 }

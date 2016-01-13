@@ -246,7 +246,8 @@
     }
 }
 
-#pure-slider {
+div#pure-slider {
+    width: auto;
     min-height: 180px;
     border: 10px solid white;
     box-shadow: 0 10px 10px;

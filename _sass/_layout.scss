@@ -104,9 +104,18 @@
 .site-footer {
     text-align: center;
     padding: $spacing-unit 0;
+    background: #333;
 }
-
-.footer-heading {
+.site-footer a {
+    color: #fff
+}
+.site-footer ul {
+    margin-left: initial
+}
+.site-footer li {
+    list-style: none
+}
+.site-footer h3 {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }

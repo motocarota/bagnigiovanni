@@ -4,7 +4,7 @@ title: Contatti
 permalink: /contatti/
 order: 9
 ---
-#Bagni Giovanni
+# Bagni Giovanni
 
 Via Lungomare Cavi di Lavagna (GE)
       

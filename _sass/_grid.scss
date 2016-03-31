@@ -23,14 +23,14 @@
 .col-3{ width: 48%;    }
 .col-4{ width: 65.66%; }
 .col-5{ width: 82.33%; }
-.col-6{ width: 99%;   }
+.col-6{ width: 99%;    }
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
-	padding: 0;
+/*	padding: 0; */
 	margin: 0;
 	text-align: center; 
-	color: white; 
+/*	color: white;  */
 }
 
 @media all and (max-width:800px){

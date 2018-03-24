@@ -13,18 +13,16 @@
                     />
                 </svg>
             </a>
-            {% assign pages = site.pages | sort:"order"  %}
+            {% assign pages = site.pages | sort:"order" %}
             <div class="trigger">
-                {% for page in pages %} 
-                    {% if page.order %}
-                        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> 
-                    {% endif %} 
-                {% endfor%}
+                {% for page in pages %} {% if page.order %}
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                {% endif %} {% endfor%}
             </div>
         </nav>
 
-        <a class="site-title" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/images/logo.png" alt="Bagni Giovanni">
+        <a class="site-title" href="#">
+            <img src="images/logo.png" alt="Bagni Giovanni">
         </a>
     </div>
 

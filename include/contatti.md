@@ -15,7 +15,7 @@ Eugenio: [338 2057500](tel:00393382057500)
 Rudy: [333 1518075](tel:00393331518075)      
 
 
-![](images/flags.png)
+![](../images/flags.png)
  
 
-![](images/map.png)
+![](../images/map.png)

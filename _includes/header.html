@@ -21,13 +21,8 @@
             </div>
         </nav>
 
-        <a class="site-title" href="#">
-            <img src="images/logo.png" alt="Bagni Giovanni">
+        <a class="site-title" href="{{ '/' | prepend:site.baseurl }}">
+            <img src="{{ '/images/logo.png' | prepend:site.baseurl }}" alt="Bagni Giovanni">
         </a>
-        <script>
-            console.log('base url', {{site.baseurl}})
-            console.log('site url', {{site.siteurl}})
-        </script>
     </div>
-
 </header>

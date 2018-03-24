@@ -5,4 +5,4 @@ date:   2017-06-01 16:06:27
 categories: notizie
 ---
 
-<img src='/images/zeuggia-06-2017.jpg' />
+<img src="{{ '/images/zeuggia-06-2017.jpg' | prepend:site.baseurl }}" />

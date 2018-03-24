@@ -21,15 +21,18 @@
         color: $grey-color-dark;
     }
 }
-.page-heading {
-    font-size: 28px;
+h1, h2, h3, h4, h5 {
     font-family: "Georgia", serif;
     text-align: center;
     font-style: italic;
     color: #999999;
-    margin: 0 auto 2em;
     text-shadow: 1px 1px 1px #ffffff;
+}
+.page-heading {
+    font-size: 28px;
+    margin: 0 auto 2em;
     border-bottom: 1px dashed #ccc;
+    padding: 1rem 0;
 }
 .site-nav {
     text-align: center;
@@ -185,7 +188,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .post-list {

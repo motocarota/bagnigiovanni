@@ -44,11 +44,11 @@
 </script>
 <script>
     "use strict";
-    (function(){
-        var slider = new PureSlider({
-            actionMode: 'fade',
-            duration: 3500
-        })
-        slider.slide();
-    })();
+	try {
+		var slider = new PureSlider({
+			actionMode: 'fade',
+			duration: 3500
+		})
+		slider.slide();
+	} catch (e) {}
 </script>

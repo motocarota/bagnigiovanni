@@ -2,7 +2,7 @@
 title: Bagni Giovanni
 email: bagnigiovanni2009@libero.it
 description: "Bagni Giovanni : Cavi di Lavagna"
-baseurl: "/bagnigiovanni" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://bagnigiovanni.it" # the base hostname & protocol for your site
 
 # Build settings

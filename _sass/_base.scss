@@ -238,3 +238,24 @@ img.front {
     background: url('../images/flags.png') no-repeat center center;
     background-position: center center
 }
+
+/* prezzi */
+.prezzi {
+margin-bottom: 3rem;
+}
+.prezzi table {
+width: 100%;
+text-align: center;
+}
+.prezzi th {
+background: lightgrey;
+text-align: left;
+padding: 0 1rem;
+}
+.prezzi td:first-child {
+text-align: right;
+width: 40%;
+}
+.prezzi tr:nth-child(odd) {
+background-color: rgba(0, 0, 0, 0.03);
+}

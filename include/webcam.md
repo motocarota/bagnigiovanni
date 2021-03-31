@@ -7,7 +7,7 @@ order: 5
 <iframe
   width="750"
   height="422"
-  src="https://vedetta.org/vedetta/lavagna/index.html"
+  src="https://www.vedetta.org/vedetta/lavagna/index.html?nocache=1"
   frameborder="0"
-  allowfullscreen>
+  allowfullscreen="">
 </iframe>

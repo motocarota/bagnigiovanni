@@ -1,0 +1,13 @@
+NOTES:
+---
+deploy
+
+- apply changes/commit/push
+- generate new version
+
+$ jekyll b
+
+- push through surge
+
+$ cd _site
+$ surge

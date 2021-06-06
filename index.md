@@ -9,7 +9,7 @@ title: Bagni Giovanni
     <br>
     <h1 class="page-heading">Bagni - Ristorante - Bar ai Cavi di Lavagna</h1>
     <h3>
-        <a href='images/zeuggia-08-2020.jpg' target="_blank">
+        <a href='images/zeuggia-06-2021.jpg' target="_blank">
           Zeuggia do Miscio 2020
         </a>
     </h3>

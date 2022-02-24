@@ -6,35 +6,64 @@ const data = [
     titles: [ 'Stagione (1/5-15/9)' ],
     type: 0,
     prices: [
-      [1200], [2000], [2400], [1600], [1500], [1600], [1300], [ 750 ],
+      [1200], [2350], [2350], [1850], [1750], [1850], [1550], [ 1000 ],
     ],
   },
   {
     titles: [ 'Mese', 'Bassa Stagione', 'Alta Stagione' ],
     type: 0,
     prices: [
-      [220, 650], [320, 950], [380, 1150], [270, 850], [220, 800], [270, 1000],  [170, 650], [180, 380],
+      [220, 750],
+      [320, 1100],
+      [380, 1300],
+      [270, 1000],
+      [220, 900],
+      [270, 1000],
+      [170, 750],
+      [180, 450],
     ],
   },
   {
     titles: [ '14 Giorni', 'Bassa Stagione', 'Alta Stagione' ],
     type: 0,
     prices: [
-      [140, 380], [200, 540], [240, 620], [190, 450], [170, 380], [200, 480], [120, 350], [120, 200],
+      [150, 450],
+      [240, 650],
+      [280, 750],
+      [220, 550],
+      [200, 500],
+      [240, 580],
+      [140, 400],
+      [150, 200],
     ]
   },
   {
     titles: [ '7 Giorni', 'Bassa Stagione', 'Alta Stagione' ],
     type: 0,
     prices: [
-      [65, 220], [110, 300], [130, 350], [100, 240], [95, 200], [110, 300], [65, 160], [90, 100],
+      [80, 250],
+      [130, 400],
+      [150, 450],
+      [120, 300],
+      [110, 300],
+      [130, 350],
+      [80, 250],
+      [100, 150],
     ]
   },
   {
     titles: [ 'Giornata' ],
     type: 1,
     prices: [
-      [10], [18], [24], [30], [36], [35, 10], [40, 10], [30, 10], [16, 10],
+      [10],
+      [18],
+      [24],
+      [30],
+      [36],
+      [35, 10],
+      [40, 10],
+      [30, 10],
+      [16, 10],
     ]
   }
 ]
@@ -69,7 +98,7 @@ function buildTableHeader(table = {}) {
     t => `<th class='title'>${t}</th>`
   )
 
-  return `<tr>${renderedTitles}</tr>`
+  return `  <tr>${renderedTitles}</tr>`
 }
 
 function toPrice (num) {
@@ -86,13 +115,17 @@ function buildTableRow(table = {}) {
   return t.map(
     (label, index) => {
       const p = prices[index] || []
-      return `<tr><td>${label}</td> <td>${toPrice(p[0])}</td> <td>${toPrice(p[1])}</td></tr>`
+      return `
+  <tr><td>${label}</td> <td>${toPrice(p[0])}</td> <td>${toPrice(p[1])}</td></tr>`
     }
   ).join('')
 }
 
 function buildTable(table = {}) {
-  return `<table>${buildTableHeader(table)}${buildTableRow(table)}</table>`
+  return `
+<table>
+${buildTableHeader(table)}${buildTableRow(table)}
+</table>`
 }
 
 function build() {
@@ -101,4 +134,4 @@ function build() {
   }).join(' ')
 }
 
-console.log('result = ', build())
+console.log(build())

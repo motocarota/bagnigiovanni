@@ -11,3 +11,10 @@ $ jekyll b
 
 $ cd _site
 $ surge
+
+UPDATE LISTINO PREZZI
+---
+- cambia il contenuto della var data in _exclude/listino.js
+- lancia lo script
+$ node _exclude/listino.js > _includes/tariffe.html
+- commit, push

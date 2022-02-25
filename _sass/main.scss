@@ -35,6 +35,15 @@ $on-laptop:        800px;
     }
 }
 
+table.tariffe {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",

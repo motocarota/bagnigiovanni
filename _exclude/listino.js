@@ -122,8 +122,10 @@ function buildTableRow(table = {}) {
 }
 
 function buildTable(table = {}) {
+  const style = "font-size: 16px; color: #333; font-weight: 500;"
+  
   return `
-<table class="tariffe">
+<table class="tariffe" style="${style}">
 ${buildTableHeader(table)}${buildTableRow(table)}
 </table>`
 }

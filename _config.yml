@@ -7,5 +7,5 @@ url: "http://bagnigiovanni.it" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-version: v3.1.5
+version: v3.1.6
 exclude: [_exclude/]

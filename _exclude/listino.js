@@ -123,7 +123,7 @@ function buildTableRow(table = {}) {
 
 function buildTable(table = {}) {
   return `
-<table>
+<table class="tariffe">
 ${buildTableHeader(table)}${buildTableRow(table)}
 </table>`
 }

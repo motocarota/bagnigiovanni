@@ -9,8 +9,8 @@ title: Bagni Giovanni
     <br>
     <h1 class="page-heading">Bagni - Ristorante - Bar ai Cavi di Lavagna</h1>
     <h3>
-        <a href='images/menu-pasqua-2022.jpeg' target="_blank">
-          Scarica il menu' di pasqua
+        <a href='images/menu-ferragosto-2022.jpeg' target="_blank">
+          Scarica il menu' di Ferragosto
         </a>
     </h3>
     <div class="grid-container outline center">

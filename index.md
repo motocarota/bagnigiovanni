@@ -8,11 +8,11 @@ title: Bagni Giovanni
     {% include gallery.html %}
     <br>
     <h1 class="page-heading">Bagni - Ristorante - Bar ai Cavi di Lavagna</h1>
-    <h3>
+    <!-- <h3>
         <a href='images/menu-pasqua-2023.jpeg' target="_blank">
           Scarica il menu' di Pasqua
         </a>
-    </h3>
+    </h3> -->
     <div class="grid-container outline center">
       <div class="row">
         <div class="col-3 section-container">

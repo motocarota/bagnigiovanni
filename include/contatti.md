@@ -8,7 +8,7 @@ order: 9
 
 Via Lungomare Cavi di Lavagna (GE)
       
-Telefono: [0185 393817](tel:00390185393817)
+Telefono: [0185 696948](tel:00390185696948)
 
 Eugenio: [338 2057500](tel:00393382057500)
 

@@ -4,16 +4,17 @@
 	let links = [
 		{ url: '/ristorante', title: 'IL RISTORANTE' },
 		{ url: '/spiaggia', title: 'LA SPIAGGIA' },
+		{ url: '/menu', title: 'I NOSTRI MENU' },
+		{ url: '/prenota', title: 'PRENOTAZIONI' },
 		{ url: '/webcam', title: 'WEBCAM' },
 		{ url: '/meteo', title: 'METEO' },
-		{ url: '/servizi', title: 'SERVIZI' },
 		{ url: '/contatti', title: 'CONTATTI' }
 	];
 </script>
 
 <Navbar let:hidden let:toggle class="bg-transparent">
 	<NavHamburger on:click={toggle} />
-	<NavUl {hidden} class="mx-auto">
+	<NavUl {hidden} class="mx-auto bg-transparent">
 		{#each links as l}
 			<NavLi href={l.url} class="text-slate-500 hover:underline">{l.title}</NavLi>
 		{/each}

@@ -1,9 +1,8 @@
 <script>
 	import Card from '../lib/Card.svelte';
-	import SpiaggieIframe from '../lib/SpiaggeIframe.svelte';
 </script>
 
-<div class="flex justify-center gap-9">
+<div class="md:flex justify-center gap-9">
 	<div>
 		<div class="col-3">
 			<Card url="servizi" img="./images/servizi-00.webp" label="Servizi" />
@@ -20,7 +19,6 @@
 			<Card url="eventi" img="./images/bar-00.webp" label="Eventi" />
 		</div>
 	</div>
-	<!-- <SpiaggieIframe /> -->
 </div>
 
 <style lang="postcss">

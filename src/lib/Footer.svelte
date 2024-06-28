@@ -28,8 +28,8 @@
 </script>
 
 <footer class="text-center bg-gray-800 text-gray-300 py-10 mt-20">
-	<div class="flex">
-		<div class="flex-1 column-3">
+	<div class="md:flex">
+		<div class="flex-1">
 			<Title>Seguici</Title>
 			<Links links={socials} />
 

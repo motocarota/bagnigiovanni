@@ -4,8 +4,8 @@
 	import Footer from '../lib/Footer.svelte';
 </script>
 
-<div class="m-auto max-w-screen-lg min-h-screen">
-	<Header />
+<Header />
+<div class="mx-auto place-content-center text-center min-h-96">
 	<slot />
 </div>
 <Footer />

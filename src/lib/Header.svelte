@@ -1,29 +1,25 @@
 <script>
+	import { Navbar, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+
 	let links = [
-		{ url: '/', title: 'HOME' },
 		{ url: '/ristorante', title: 'IL RISTORANTE' },
 		{ url: '/spiaggia', title: 'LA SPIAGGIA' },
-		{ url: '/servizi', title: 'SERVIZI' },
-		{ url: '/meteo', title: 'METEO' },
-		{ url: '/menu', title: 'MENU' },
 		{ url: '/webcam', title: 'WEBCAM' },
-		{ url: '/info', title: 'INFORMAZIONI' },
+		{ url: '/meteo', title: 'METEO' },
+		{ url: '/servizi', title: 'SERVIZI' },
 		{ url: '/contatti', title: 'CONTATTI' }
 	];
 </script>
 
-<header>
-	<div>
-		<nav>
-			<div class="text-center text-uppercase py-4">
-				{#each links as l}
-					<a class="m-2" href={l.url}>{l.title}</a>
-				{/each}
-			</div>
-		</nav>
+<Navbar let:hidden let:toggle class="bg-transparent">
+	<NavHamburger on:click={toggle} />
+	<NavUl {hidden} class="mx-auto">
+		{#each links as l}
+			<NavLi href={l.url} class="text-slate-500 hover:underline">{l.title}</NavLi>
+		{/each}
+	</NavUl>
+</Navbar>
 
-		<a class="m-auto p-5" href="/">
-			<img src="/images/logo.webp" alt="Bagni Giovanni" class="m-auto py-4" />
-		</a>
-	</div>
-</header>
+<a class="p-5" href="/">
+	<img src="/images/logo.webp" alt="Bagni Giovanni" class="m-auto py-4" />
+</a>

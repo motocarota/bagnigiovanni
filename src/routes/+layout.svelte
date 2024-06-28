@@ -5,7 +5,7 @@
 </script>
 
 <Header />
-<div class="mx-auto place-content-center text-center min-h-96">
+<div class="place-content-center text-center min-h-96 max-w-5xl mx-auto">
 	<slot />
 </div>
 <Footer />

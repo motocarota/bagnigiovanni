@@ -3,5 +3,5 @@
 </script>
 
 TODO Add photos
-<img src="/images/listino.webp" alt="" />
+<img src="/images/listino.webp" alt="listino prezzoi" />
 <SpiaggieIframe />

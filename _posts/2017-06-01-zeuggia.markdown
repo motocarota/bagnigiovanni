@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Zeuggia do miscio"
-date:   2017-06-01 16:06:27
-categories: notizie
----
-
-<img src="{{ '/images/zeuggia.jpg' }}" />

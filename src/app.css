@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  background-color: #fdfdfd;
+  background-image: url(/images/noise_bg.webp);
+  -webkit-text-size-adjust: 100%;
+}

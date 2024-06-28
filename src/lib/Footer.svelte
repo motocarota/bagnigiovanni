@@ -41,6 +41,7 @@
 			<img src="/images/lingue.webp" alt="lingue" class="mx-auto" />
 			<Title>Bagni Giovanni</Title>
 			<Links links={contacts} />
+			<p class="text-small">v.{PKG.version}</p>
 		</div>
 		<div class="flex-1">
 			<Title>Vicino a noi</Title>

@@ -1,19 +1,14 @@
-import flowbitePlugin from 'flowbite/plugin'
-import defaultTheme from 'tailwindcss/defaultTheme'
-
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './src/**/*.{html,js,svelte,ts}',
-    './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
-  ],
+  content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
+
+  plugins: [require('flowbite/plugin')],
+
+  darkMode: 'class',
 
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
-      color: {
+      colors: {
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',
@@ -28,8 +23,7 @@ export default {
           900: '#A5371B'
         }
       }
-    },
-  },
-  plugins: [flowbitePlugin]
+    }
+  }
 }
 

@@ -4,7 +4,7 @@
 	let links = [
 		{ url: '/ristorante', title: 'IL RISTORANTE' },
 		{ url: '/spiaggia', title: 'LA SPIAGGIA' },
-		{ url: '/menu', title: 'I NOSTRI MENU' },
+		{ url: '/menu/', title: 'I NOSTRI MENU' },
 		{ url: '/prenota', title: 'PRENOTAZIONI' },
 		{ url: '/webcam', title: 'WEBCAM' },
 		{ url: '/meteo', title: 'METEO' },

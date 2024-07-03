@@ -8,7 +8,7 @@
 			<Card url="ristorante" image="./images/ristorante-03.webp" label="Il Ristorante" />
 		</div>
 		<div class="col-3">
-			<Card url="menu/" image="./images/ristorante-06.webp" label="I Nostri Menu" />
+			<Card url="menu" image="./images/ristorante-06.webp" label="I Nostri Menu" />
 		</div>
 	</div>
 	<div>

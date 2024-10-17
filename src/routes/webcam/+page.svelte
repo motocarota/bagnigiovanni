@@ -1,3 +1,4 @@
+<h2 class="text-2xl font-[500] font-serif italic mt-4">Webcam di Levante</h2>
 <iframe
 	width="100%"
 	height="600"
@@ -10,6 +11,7 @@
 	scrolling="no"
 ></iframe>
 
+<h2 class="text-2xl font-[500] font-serif italic mt-4">Webcam di Ponente</h2>
 <iframe
 	width="100%"
 	height="600"

@@ -1,7 +1,13 @@
+<script>
+	$: innerWidth = 0;
+	$: w = Math.min(600, innerWidth) * 0.8;
+</script>
+
+<svelte:window bind:innerWidth />
 <h2 class="text-2xl font-[500] font-serif italic mt-4">Webcam di Levante</h2>
 <iframe
 	width="100%"
-	height="600"
+	height={w}
 	src="https://www.vedetta.org/vedetta/lavagna/index.html?nocache=1"
 	frameborder="0"
 	allowfullscreen="true"
@@ -11,10 +17,10 @@
 	scrolling="no"
 ></iframe>
 
-<h2 class="text-2xl font-[500] font-serif italic mt-4">Webcam di Ponente</h2>
+<h2 class="text-2xl font-[500] font-serif italic">Webcam di Ponente</h2>
 <iframe
 	width="100%"
-	height="600"
+	height={w}
 	src="https://vedetta.org/vedetta/cavi-di-lavagna2/index.php?nocache=1"
 	frameborder="0"
 	allowfullscreen="true"

@@ -1,7 +1,11 @@
 <script>
 	import Card from '../lib/Card.svelte';
+	import Prenota from '../lib/Prenota.svelte';
 </script>
 
+<div>
+	<Prenota />
+</div>
 <div class="md:flex justify-center gap-9">
 	<div>
 		<div class="col-3">

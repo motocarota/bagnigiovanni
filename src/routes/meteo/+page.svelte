@@ -11,7 +11,7 @@
 </iframe>
 <!-- LIMET - Vietata la rimozione dei commenti www.dpsonline.it - LIMET -->
 <iframe
-	src="https://www.ecowitt.net/home/share?authorize=4TH7RY&device_id=cVhOU2lYWGVBMERpcFo4aXJUcVJSZz09"
+	src="https://www.ecowitt.net/home/share?authorize=4TH7RY"
 	frameBorder="0"
 	scrolling="no"
 	style="width:100vw;height:800px;border:0;min-width: 350px; max-width: 900px;"

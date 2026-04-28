@@ -7,7 +7,6 @@
 		{ url: '/menu', title: 'I NOSTRI MENU' },
 		{ url: '/prenota', title: 'PRENOTAZIONI' },
 		{ url: '/webcam', title: 'WEBCAM' },
-		{ url: '/meteo', title: 'METEO' },
 		{ url: '/contatti', title: 'CONTATTI' }
 	];
 </script>

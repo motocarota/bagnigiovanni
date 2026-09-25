@@ -1,6 +1,7 @@
 <script>
 	import { Button } from 'flowbite-svelte';
 	import Title from '../../lib/Title.svelte';
+	import Seo from '../../lib/Seo.svelte';
 
 	const list = [
 		{ name: 'Telefono', num: '0185 696948' },
@@ -8,6 +9,12 @@
 		{ name: 'Rudy', num: '333 1518075' }
 	];
 </script>
+
+<Seo
+	title="Contatti"
+	description="Contatta Bagni Giovanni: indirizzo, numeri di telefono e come raggiungerci a Cavi di Lavagna (GE)."
+	image="/images/map.webp"
+/>
 
 <div class="center">
 	<Title class="my-2">Bagni Giovanni</Title>
@@ -19,5 +26,9 @@
 	</div>
 
 	<img src="/images/lingue.webp" alt="lingue" class="mx-auto my-4" />
-	<img src="/images/map.webp" alt="lingue" class="mx-auto my-4 w-9/12" />
+	<img
+		src="/images/map.webp"
+		alt="mappa di Bagni Giovanni a Cavi di Lavagna"
+		class="mx-auto my-4 w-9/12"
+	/>
 </div>

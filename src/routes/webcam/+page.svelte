@@ -1,7 +1,15 @@
 <script>
+	import Seo from '../../lib/Seo.svelte';
+
 	$: innerWidth = 0;
 	$: w = Math.min(600, innerWidth) * 0.8;
 </script>
+
+<Seo
+	title="Webcam"
+	description="Guarda le webcam in diretta di Levante e Ponente sulla spiaggia di Cavi di Lavagna, presso Bagni Giovanni."
+	image="/images/cam.webp"
+/>
 
 <svelte:window bind:innerWidth />
 <h2 class="text-2xl font-[500] font-serif italic mt-4">Webcam di Levante</h2>

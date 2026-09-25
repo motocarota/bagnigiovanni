@@ -1,6 +1,7 @@
 <script>
 	import { Gallery } from 'flowbite-svelte';
 	import Card from '../../lib/Card.svelte';
+	import Seo from '../../lib/Seo.svelte';
 	const getImg = (i) => ({
 		alt: `Ristorante ${i}`,
 		src: `/images/ristorante-${i}.webp`,
@@ -9,6 +10,12 @@
 	const images1 = ['03', '01', '02', '05'].map(getImg);
 	const images2 = ['06', '07', '08'].map(getImg);
 </script>
+
+<Seo
+	title="Il Ristorante"
+	description="Ristorante di pesce fronte mare a Cavi di Lavagna: cene romantiche, piatti tipici liguri e una splendida vista sul golfo del Levante ligure."
+	image="/images/ristorante-03.webp"
+/>
 
 <Gallery class="gap-4 md:grid-cols-2">
 	<Card images={images1} />

@@ -1,6 +1,7 @@
 <script>
 	import { Gallery } from 'flowbite-svelte';
 	import Card from '../../lib/Card.svelte';
+	import Seo from '../../lib/Seo.svelte';
 
 	const getImg = (i) => ({
 		alt: `Spiaggia ${i}`,
@@ -10,6 +11,12 @@
 	const images1 = ['01', '02', '03', '04'].map(getImg);
 	const images2 = ['05', '06', '07', '00'].map(getImg);
 </script>
+
+<Seo
+	title="La Spiaggia"
+	description="Spiaggia attrezzata e sicura a Cavi di Lavagna, curata dal nostro personale per garantire relax e comfort a tutta la famiglia."
+	image="/images/spiaggia-00.webp"
+/>
 
 <div>
 	La spiaggia e' mantenuta pulita e sicura dal nostro personale e garantisce un relax ottimale per

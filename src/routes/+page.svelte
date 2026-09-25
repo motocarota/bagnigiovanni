@@ -1,7 +1,14 @@
 <script>
 	import Card from '../lib/Card.svelte';
 	import Prenota from '../lib/Prenota.svelte';
+	import Seo from '../lib/Seo.svelte';
 </script>
+
+<Seo
+	title="Stabilimento Balneare e Ristorante a Cavi di Lavagna"
+	description="Bagni Giovanni: stabilimento balneare e ristorante di pesce fronte mare a Cavi di Lavagna (GE), in Liguria. Spiaggia attrezzata, ristorante vista mare e prenotazioni online."
+	image="/images/ristorante-03.webp"
+/>
 
 <div>
 	<Prenota />
